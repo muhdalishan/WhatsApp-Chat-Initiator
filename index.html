@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat Initiator</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 10px;
+            background-color: #25D366;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WhatsApp Chat Initiator</h1>
+        <p1>By Muhammad Alishan</p1>
+        <hr>
+        <div class="form-group">
+            <label for="phoneNumber">Enter Phone Number:</label>
+            <input type="text" id="phoneNumber" placeholder="e.g., +92 345678900">
+        </div>
+        <button onclick="startChat()">Start Chat</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
